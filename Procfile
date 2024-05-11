@@ -1,0 +1,1 @@
+web: gunicorn bus_locater_project.wsgi

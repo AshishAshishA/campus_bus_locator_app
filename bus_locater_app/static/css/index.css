@@ -1,0 +1,44 @@
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width:400px) {
+    .container{
+        width: 350px !important;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    td{
+        font-size: small;
+    }
+}
+
+.messages{
+    background-color: lightgreen;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.navbar{
+    display: flex !important;
+    flex-wrap: wrap-reverse !important;
+    justify-content: center !important;
+    margin: 2%;
+    padding: 4%;
+}
+
+form{
+    margin-top: 5%;
+    
+}
+
+/* #id_bus_route_name, #id_bus_number{
+    width: 80% !important;
+} */
